@@ -67,3 +67,45 @@ div {
   text-decoration: none;
   cursor: pointer;
 }
+
+.cerrar4 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar4:hover,
+.cerrar4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cerrar5 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar5:hover,
+.cerrar5:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cerrar6 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar6:hover,
+.cerrar6:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

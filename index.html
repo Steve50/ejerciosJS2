@@ -17,6 +17,9 @@
       <button id="showModalCom">Comparar dos numeros</button>
       <button id="showModalTreCom">Comparar tres numeros</button>
       <button id="showModalDiv">Es divisible entre 2</button>
+      <button id="showModalHMA">Cuantas "A" hay</button>
+      <button id="showModalVowels">Mostrar las vocales en una oracion</button>
+      <button id="showModalHMV">Cuantas vocales hay</button>
     </div>
     <div class="modal" id="modalCom">
       <div class="modal-content">
@@ -31,7 +34,7 @@
     </div>
     <div class="modal" id="modalTreCom">
       <div class="modal-content">
-        <span class="cerrar2"">&times;</span>
+        <span class="cerrar2">&times;</span>
         <h1 id="showTreCom">Compararar tres numeros</h1>
         <form id="compTreNumbers">
           <input id="1num" type="number" />
@@ -42,15 +45,45 @@
       </div>
     </div>
     <div class="modal" id="modalDiv">
-        <div class="modal-content">
-          <span class="cerrar3"">&times;</span>
-          <h1 id="showDiv">Es divisible</h1>
-          <form id="divTwo">
-            <input id="divNum" type="number" />
-            <button type="submit" class="btn btn-success">Revisar</button>
-          </form>
-        </div>
+      <div class="modal-content">
+        <span class="cerrar3">&times;</span>
+        <h1 id="showDiv">Es divisible</h1>
+        <form id="divTwo">
+          <input id="divNum" type="number" />
+          <button type="submit" class="btn btn-success">Revisar</button>
+        </form>
       </div>
+    </div>
+    <div class="modal" id="modalHMA">
+      <div class="modal-content">
+        <span class="cerrar4">&times;</span>
+        <h1 id="showHMA">¿Cuantas A hay?</h1>
+        <form id="howManiA">
+          <input id="checkA" type="text" />
+          <button type="submit" class="btn btn-success">Revisar</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="modalVowels">
+      <div class="modal-content">
+        <span class="cerrar5">&times;</span>
+        <h1 id="showVowels">¿Cules vocales hay?</h1>
+        <form id="vowels">
+          <input id="checkV" type="text" />
+          <button type="submit" class="btn btn-success">Revisar</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="modalHMV">
+      <div class="modal-content">
+        <span class="cerrar6">&times;</span>
+        <h1 id="showHMV">¿Cuantas vocales hay?</h1>
+        <form id="howMVowels">
+          <input id="hMV" type="text" />
+          <button type="submit" class="btn btn-success">Revisar</button>
+        </form>
+      </div>
+    </div>
     <script src="./assets/js/app.js"></script>
   </body>
 </html>
